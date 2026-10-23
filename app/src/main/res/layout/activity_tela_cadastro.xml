@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A237E"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textView0"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="CADASTRO"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Nome"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNomeC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Senha"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtSenhaC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radPrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Prestador"
+            android:textColor="#FFFFFF" />
+
+            <RadioButton
+            android:id="@+id/radContra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contratante"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btCadastra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:clipToOutline="true"
+        android:padding="12dp"
+        android:text="Cadastrar" />
+
+    <Button
+        android:id="@+id/btVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToOutline="true"
+        android:padding="12dp"
+        android:text="Voltar" />
+
+</LinearLayout>
